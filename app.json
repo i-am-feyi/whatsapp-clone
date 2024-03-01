@@ -16,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.whatsapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.whatsapp"
     },
     "web": {
       "bundler": "metro",
@@ -33,7 +35,8 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPath": true
     }
   }
 }
